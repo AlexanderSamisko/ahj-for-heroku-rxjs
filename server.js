@@ -10,11 +10,11 @@ const handler = new Handler();
 const Router = require('koa-router');
 
 const router = new Router();
-const WS = require('ws');
+
 
 const port = process.env.PORT || 7040;
 const server = http.createServer(app.callback());
-const wss = new WS.Server({ server });
+
 
 app.use(koaBody({
   urlencoded: true,
