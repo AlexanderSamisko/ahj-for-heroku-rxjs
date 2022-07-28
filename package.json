@@ -42,7 +42,7 @@
   },
   "scripts": {
     "prestart": "yarn install",
-    "start": "forever ./BackEnd/server.js",
+    "start": "forever server.js",
     "build": "webpack --mode production",
     "lint": "eslint . --fix",
     "test": "jest --passWithNoTests",
